@@ -98,7 +98,7 @@ public class Screen {
 
     }
 
-    public void drawWin(Graphics g, int level) {
+    public void drawWin(Graphics g) {
         g.setColor(Color.yellow);
         g.fillRect(0, 0, getRealWidth(), getRealHeight());
 
